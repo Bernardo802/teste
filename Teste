@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Contatos</title>
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			background-color: #0f0f0f;
+			color: #f0f0f0;
+			font-family: 'Roboto', sans-serif;
+		}
+
+		nav {
+			background-color: #0f0f0f;
+			border-bottom: 2px solid #ff003c;
+			padding: 15px 20px;
+			font-size: 1.8rem;
+			text-align: center;
+		}
+
+		nav a {
+			text-decoration: none;
+			color: #f0f0f0;
+			margin: 0 20px;
+			font-weight: bold;
+			transition: color 0.3s ease;
+		}
+
+		nav a:hover {
+			color: #ff003c;
+		}
+
+		.container {
+			text-align: center;
+			padding: 40px 20px;
+		}
+
+		.logo {
+			width: 200px;
+			border: 5px solid #ff003c;
+			border-radius: 10px;
+			margin-bottom: 20px;
+		}
+
+		h1 {
+			font-family: 'Anton', sans-serif;
+			font-size: 3rem;
+			color: #ff003c;
+			margin-bottom: 30px;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+		}
+
+		.icon {
+			width: 50px;
+			vertical-align: middle;
+			margin-right: 10px;
+		}
+
+		.contato {
+			font-size: 22px;
+			margin: 15px 0;
+		}
+
+		a {
+			color: #f0f0f0;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+		a:hover {
+			color: #ff003c;
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<a href="index.html">Home</a>
+		<a href="produtos.html">Produtos</a>
+		<a href="sobre-nos.html">Sobre Nós</a>
+		<a href="contatos.html">Contatos</a>
+	</nav>
+
+	<div class="container">
+		<img src="imagens/logo.jpg" alt="Logo da Green Evolution" class="logo">
+		<h1>Entre em Contato</h1>
+
+		<p class="contato">
+			<img src="imagens/whats.png" alt="WhatsApp" class="icon">
+			<a href="https://chat.whatsapp.com/JL75yuN6ARyB6RCE6G7UER" target="_blank">Grupo no WhatsApp</a>
+		</p>
+
+		<p class="contato">
+			<img src="imagens/email.png" alt="Email" class="icon">
+			<a href="mailto:Contato.GreenEvolution@gmail.com">Contato.GreenEvolution@gmail.com</a>
+		</p>
+	</div>
+</body>
+</html>
